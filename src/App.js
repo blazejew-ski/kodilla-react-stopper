@@ -4,7 +4,7 @@ import Timer from './components/Timer/Timer.js';
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <Timer/>
     </div>
   );
